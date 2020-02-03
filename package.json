@@ -1,8 +1,8 @@
 {
   "name": "suratmasuk",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "Aplikasi Disposisi",
+  "productName": "Dispo App",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Imam Satya Wedhatama <14.8182@stis.ac.id>",
@@ -14,7 +14,10 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
+    "firebase": "^7.7.0",
+    "nodemailer": "^6.4.2",
     "quasar": "^1.0.0",
+    "vue-firestore": "^0.3.30",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
@@ -23,7 +26,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^5.0.0"
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-particles": "^1.0.9"
   },
   "engines": {
     "node": ">= 10.18.1",
